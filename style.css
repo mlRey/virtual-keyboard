@@ -3,14 +3,16 @@ body{
 }
 
 .button-line-style{
-    background-color: gray;
+    background-color: gray !important;
     width: 100%;
-    height: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
     /* border: 1px solid red; */
 }
 
 .container{
-    width: 602px;
+    width: 900px;
     height: 100%;  
     transform: translateX(-50%);
     position: relative; 
@@ -20,22 +22,91 @@ body{
 }
 
 
-.textarea-style{
- 
+.textarea-style{ 
     height: 200px;
     resize: none;
     border: 1px solid black;
     padding: 0;
     display: flex;
-    padding: 10px   ;
+    padding: 10px  ;
 }
 
 
 .button-style{
-    width: 33px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
     display: inline-block;
-    align-items: center;
     margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 49px;
+    user-select: none;
+    box-shadow: 0 0 7px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+   
+}
+.button-style-v1{
+    width: 110px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 49px;
+    user-select: none;
+    box-shadow: 0 0 7px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+   
+}
+.button-style-v2{
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 49px;
+    user-select: none;
+    box-shadow: 0 0 7px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+   
+}
+.button-style-v3{
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 49px;
+    user-select: none;
+    box-shadow: 0 0 7px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+   
+}
+
+
+
+.button-style-press{
+  
+    box-shadow:none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.mouse-over{
+    box-shadow:none;
+    background-color: rgba(150, 33, 33, 0.3);
+}
+
+div:hover{
+    box-shadow:none;
+    background-color: rgba(0,0,0,0.5);
 }
