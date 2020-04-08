@@ -99,7 +99,7 @@ function refresh(str) {
     }
     if (str == "shift-off") {
         if (localStorage.getItem("lang") == "rus") { refresh('rus'); }
-        if (localStorage.getItem("lang") == "eng    ") { refresh('eng'); }
+        if (localStorage.getItem("lang") == "eng") { refresh('eng'); }
 
     }
 
