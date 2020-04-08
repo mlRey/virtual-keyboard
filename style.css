@@ -1,5 +1,6 @@
 body{
 
+    font-size: 20px;
 }
 
 .button-line-style{
@@ -28,7 +29,7 @@ body{
     border: 1px solid black;
     padding: 0;
     display: flex;
-    padding: 10px  ;
+    padding: 10px;
 }
 
 
@@ -92,7 +93,20 @@ body{
     background-color: rgba(0,0,0,0.1);
    
 }
-
+.button-style-v4{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 49px;
+    user-select: none;
+    box-shadow: 0 0 7px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
 
 
 .button-style-press{
@@ -101,12 +115,8 @@ body{
     background-color: rgba(0,0,0,0.3);
 }
 
-.mouse-over{
-    box-shadow:none;
-    background-color: rgba(150, 33, 33, 0.3);
-}
 
 div:hover{
-    box-shadow:none;
+ 
     background-color: rgba(0,0,0,0.5);
 }
